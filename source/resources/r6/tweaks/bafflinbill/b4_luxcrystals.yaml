@@ -1,25 +1,14 @@
-#       Items.b4_luxcrystals_base
-#       Items.b4_luxcrystals_pulsewavePink
-#       Items.b4_luxcrystals_electricMana
-#       Items.b4_luxcrystals_electricPulseberry
-#       Items.b4_luxcrystals_cyberCrystals
-#       Items.b4_luxcrystals_pink
-#       Items.b4_luxcrystals_gold
-
-
-
-
 
 Items.b4_luxcrystals_$(variant):
   $instances:
-    - {variant: base, slot: slot_03}
-    - {variant: pulsewavePink, slot: slot_05}  
-    - {variant: electricMana, slot: slot_02}
-    - {variant: electricPulseberry, slot: slot_01}
-    - {variant: cyberCrystals, slot: slot_04}
-    - {variant: pink, slot: slot_06}
-    - {variant: gold, slot: slot_07}
-    - {variant: chromered, slot: slot_08}        
+    - {variant: base }
+    - {variant: pulsewavePink }  
+    - {variant: electricMana }
+    - {variant: electricPulseberry }
+    - {variant: cyberCrystals }
+    - {variant: pink }
+    - {variant: gold }
+    - {variant: chromered }        
   $base: Items.GenericOuterChestClothing
   entityName: b4_luxcrystals_
   appearanceName: b4_luxcrystals_!$(variant)
@@ -27,6 +16,13 @@ Items.b4_luxcrystals_$(variant):
   localizedDescription: b4_luxCrystals_desc
   placementSlots:
     - !append OutfitSlots.TorsoAux
+  statModifiers:
+  - !append Quality.Legendary
+  - !append
+    $type: ConstantStatModifier
+    statType: BaseStats.ItemArmor
+    modifierType: Additive
+    value: 30.0
   icon:
     atlasResourcePath: b4_luxcrystals\data\preview_icons.inkatlas
-    atlasPartName: $(slot)
+    atlasPartName: $(variant)
