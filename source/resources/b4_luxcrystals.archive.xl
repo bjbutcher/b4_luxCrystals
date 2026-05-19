@@ -1,0 +1,12 @@
+factories:  
+  - b4_luxcrystals\data\b4_luxcrystals_factory.csv
+localization:  
+  onscreens:  
+    en-us: 
+      - b4_luxcrystals\data\translation_strings.json
+resource:
+  patch:
+    b4_luxcrystals\mesh\b4_luxcrystals_pwa_base_body.mesh:
+    - b4_luxcrystals\mesh\b4_luxcrystals_pma_base_body.mesh
+    - b4_luxcrystals\mesh\b4_luxcrystals_pwa_elegy.mesh
+    - b4_luxcrystals\mesh\b4_luxcrystals_pwa_soloarms.mesh

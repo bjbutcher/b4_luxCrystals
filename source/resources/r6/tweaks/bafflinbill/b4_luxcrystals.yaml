@@ -1,0 +1,31 @@
+#       Items.b4_luxcrystals_base
+#       Items.b4_luxcrystals_pulsewavePink
+#       Items.b4_luxcrystals_electricMana
+#       Items.b4_luxcrystals_electricPulseberry
+#       Items.b4_luxcrystals_cyberCrystals
+#       Items.b4_luxcrystals_pink
+#       Items.b4_luxcrystals_gold
+
+
+
+
+
+Items.b4_luxcrystals_$(variant):
+  $instances:
+    - {variant: base, slot: slot_03}
+    - {variant: pulsewavePink, slot: slot_05}  
+    - {variant: electricMana, slot: slot_02}
+    - {variant: electricPulseberry, slot: slot_01}
+    - {variant: cyberCrystals, slot: slot_04}
+    - {variant: pink, slot: slot_06}
+    - {variant: gold, slot_07}      
+  $base: Items.GenericOuterChestClothing
+  entityName: b4_luxcrystals_
+  appearanceName: b4_luxcrystals_!$(variant)
+  displayName: b4_luxCrystals_$(variant)
+  localizedDescription: b4_luxCrystals_desc
+  placementSlots:
+    - !append OutfitSlots.TorsoAux
+  icon:
+    atlasResourcePath: b4_luxcrystals\data\preview_icons.inkatlas
+    atlasPartName: $(slot)

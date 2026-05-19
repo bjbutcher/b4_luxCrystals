@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CP77Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>b4_luxCrystals</Name>
+  <ModName>b4_luxCrystals</ModName>
+  <Author>billie</Author>
+  <Email />
+  <Version>1</Version>
+  <OpenProjectFiles>b4_luxcrystals\mesh\b4_luxcrystals_pwa_base_body.mesh</OpenProjectFiles>
+</CP77Mod>

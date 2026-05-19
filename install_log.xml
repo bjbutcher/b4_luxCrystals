@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstalLog Project="b4_luxCrystals" Build_date="05/18/26 10:39:36 PM">
+  <Files>
+    <Directory Path="C:\Games\Cyberpunk2077\archive">
+      <Directory Path="C:\Games\Cyberpunk2077\archive\pc">
+        <Directory Path="C:\Games\Cyberpunk2077\archive\pc\mod">
+          <file>C:\Games\Cyberpunk2077\archive\pc\mod\b4_luxCrystals.archive</file>
+          <file>C:\Games\Cyberpunk2077\archive\pc\mod\b4_luxcrystals.archive.xl</file>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Directory Path="C:\Games\Cyberpunk2077\r6">
+      <Directory Path="C:\Games\Cyberpunk2077\r6\scripts">
+        <file>C:\Games\Cyberpunk2077\r6\scripts\BafflingBillsBizarreBazaar-atelier-store.reds</file>
+      </Directory>
+      <Directory Path="C:\Games\Cyberpunk2077\r6\tweaks">
+        <Directory Path="C:\Games\Cyberpunk2077\r6\tweaks\bafflinbill">
+          <file>C:\Games\Cyberpunk2077\r6\tweaks\bafflinbill\b4_luxcrystals.yaml</file>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Files>
+</InstalLog>
