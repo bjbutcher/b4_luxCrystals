@@ -18,7 +18,8 @@ Items.b4_luxcrystals_$(variant):
     - {variant: electricPulseberry, slot: slot_01}
     - {variant: cyberCrystals, slot: slot_04}
     - {variant: pink, slot: slot_06}
-    - {variant: gold, slot_07}      
+    - {variant: gold, slot: slot_07}
+    - {variant: chromered, slot: slot_08}        
   $base: Items.GenericOuterChestClothing
   entityName: b4_luxcrystals_
   appearanceName: b4_luxcrystals_!$(variant)
