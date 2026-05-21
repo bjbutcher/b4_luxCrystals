@@ -5,5 +5,12 @@
   <Author>billie</Author>
   <Email />
   <Version>1</Version>
-  <OpenProjectFiles>b4_luxcrystals\data\preview_icons.inkatlas</OpenProjectFiles>
+  <OpenProjectFiles>b4_luxcrystals\mesh\b4_luxcrystals_pwa_base_body.mesh</OpenProjectFiles>
+  <OpenProjectFiles>ep1\items\quest\q304__misc\q304_blackwall_glitched_monitor_c_screen.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\shaders\metal_base_glitter.mt</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\meshes\cyberparticles\particle.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\meshes\cyberparticles\mikoshi_plates.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\meshes\cyberparticles\cyberparticles_128.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\meshes\cyberparticles\q110_blackwall.ent</OpenProjectFiles>
+  <OpenProjectFiles>base\fx\meshes\cyberparticles\cyberparticles_triangle_soup2.mesh</OpenProjectFiles>
 </CP77Mod>
