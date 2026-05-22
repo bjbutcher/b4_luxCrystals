@@ -1,3 +1,4 @@
+*b4_luxcrystals\mesh\b4_luxcrystals_p{gender}a_{body}.mesh
 *output\meshes\b4_streetpunkjacket_{body}.mesh
 86maylin_base\effect\equipable_eyeglow_heterochromia\eye_circuit_blue_iris.effect
 86maylin_base\effect\equipable_eyeglow_heterochromia\eye_circuit_blue_iris.particle

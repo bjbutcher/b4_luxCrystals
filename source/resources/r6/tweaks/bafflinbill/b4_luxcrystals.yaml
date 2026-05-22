@@ -9,7 +9,7 @@ Items.b4_luxcrystals_$(variant):
     - {variant: pink }
     - {variant: gold }
     - {variant: chromered } 
-    - {variant: blackwallbitch}       
+    - {variant: holographic}       
   $base: Items.GenericOuterChestClothing
   entityName: b4_luxcrystals_
   appearanceName: b4_luxcrystals_!$(variant)
